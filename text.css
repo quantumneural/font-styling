@@ -1,0 +1,55 @@
+body{
+    padding: 10px 2.5px 200px;
+    background-color: rgb(26, 27, 29);
+}
+p{
+    color: white;
+    font-family: Roboto, Arial;
+}
+.video-title{
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+width: 290px;
+margin: 0px 0px 5.3px 0px;
+}
+.video-stats{
+    margin: 0px 0px 20px;
+    font-size: 14px;
+    color: rgb(172, 164, 153);
+}
+.video-creator{
+    margin: 0px 0px 14px;
+    font-size: 14px;
+    color:rgb(172, 164, 153);
+}
+.video-description{
+    width: 280px;
+    font-size: 14px;
+    color:rgb(172, 164, 153);
+    margin: 0px 0px 60px;
+    line-height: 20px;
+}
+.apple-adbanner{
+    padding: 18px;
+    text-align: center;
+    font-size: 14px;
+    background-color: rgb(160 24 23);
+}
+.iShop-link{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition:
+    opacity 0.2s,
+    transform 0.2s,
+    transform-origin 0.2s;
+}
+.iShop-link:hover{
+    opacity: 0.8;
+    transform: translateY(-1px);
+}
+.iShop-link:active{
+    opacity: 0.6;
+    transform: translateY(0.3px);
+}
